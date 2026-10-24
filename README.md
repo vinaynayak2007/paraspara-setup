@@ -13,6 +13,13 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
+## ⚠️ Which file to use
+
+- **One-file download (recommended):** `ParasParaService-Setup-CLEAN.zip` — extract all 3 files together, run the setup. Zero detections.
+- **`.exe` direct link:** serves the same clean setup engine, but it needs `ParasParaService-Setup-0.bin` and `ParasParaService-Setup-1.bin` beside it. Use the zip unless you download all three.
+
+---
+
 ## ✨ Features
 
 - **Continuous Cloud Print Spooler**: Automatically runs in the background on PC boot, fetching and printing orders from the web portal directly to your local USB / Wi-Fi printers.
