@@ -13,6 +13,13 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
+## 🛑 Error "-0.bin is missing" / "(2)-0.bin" / "(7)-0.bin"?
+
+Your browser renamed duplicate downloads (it adds " (2)", " (7)"...). The setup exe looks for bin files matching **its own** name.
+
+**Fix A (easiest):** download **ParasParaService-Setup-CLEAN.zip** instead, extract all, run the setup inside — names are locked, this error cannot happen.
+**Fix B:** put the 3 files in a NEW empty folder and make all names identical base: `ParasParaService-Setup.exe` + `ParasParaService-Setup-0.bin` + `ParasParaService-Setup-1.bin` (delete every " (n)" copy first).
+
 ## 📥 How to install
 
 1. Download **ParasParaService-Setup.exe** (the button above) — the CLEAN installer, zero detections.
