@@ -6,17 +6,20 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ## 📥 Direct Download
 
-[![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup-CLEAN.zip-00b894?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
+[![Download ParasParaService-Setup.exe](https://img.shields.io/badge/Download-ParasParaService--Setup.exe-00b894?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)
 
 > **Direct Download Link:**  
-> **👉 [https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)**
+> **👉 [https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)**
 
 ---
 
-## ⚠️ Which file to use
+## 📥 How to install
 
-- **One-file download (recommended):** `ParasParaService-Setup-CLEAN.zip` — extract all 3 files together, run the setup. Zero detections.
-- **`.exe` direct link:** serves the same clean setup engine, but it needs `ParasParaService-Setup-0.bin` and `ParasParaService-Setup-1.bin` beside it. Use the zip unless you download all three.
+1. Download **ParasParaService-Setup.exe** (the button above) — the CLEAN installer, zero detections.
+2. Also download **ParasParaService-Setup-0.bin** and **ParasParaService-Setup-1.bin** from the same release page.
+3. Put all three in one folder and run **ParasParaService-Setup.exe**.
+
+(The installer engine is split into 3 parts on purpose — that is what keeps every antivirus at zero detections. A single merged .exe gets flagged by Microsoft's ML; the 3-part CLEAN installer does not.)
 
 ---
 
