@@ -4,7 +4,7 @@
 - **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract all, run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `7d7320ce`+`fb7e737a`, zip `ed4c40ad`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `53d6df7e`+`111f5aa5`, zip `ae8c3916`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
