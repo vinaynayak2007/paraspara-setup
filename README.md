@@ -4,7 +4,7 @@
 - **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract all, run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `53d6df7e`+`111f5aa5`, zip `ae8c3916`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `94cafd7a`+`f3d36497`, zip `4d746f12`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.7)
+## 📥 Official Downloads (v1.0.8)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -27,12 +27,12 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 🆕 What's New in v1.0.7
+## 🆕 What's New in v1.0.8
 
-- 🎁 **7-day Free Trial** — accounts without membership automatically get full access (printing, scan, cleaner, real-time) for 7 days; profile shows `[Free Trial (N days left)]`; trial survives restarts; Upgrade screen appears when it ends.
-- 🖥️ **True background start on PC-on** — installer registers autostart with `--background`: the app runs as a tray icon only, **no window opens at startup**; double-click the tray icon or desktop shortcut to open the UI.
-- 📄 **Print history upgraded** — every history row now shows document **Size** (KB/MB) next to 🕒 print **time** and **printer** name, all persisted across restarts.
-- 🖨️ **Document printing fixed** — static WinHTTP downloader (reliable PDF/photo/Office printing), Direct Test print box removed, 100× reprint guard added.
+- 🔧 **Full Scan fixed**: completes properly now — executable filter runs before disk stat (no more hours of wasted I/O that made it look frozen), one bad folder can't abort the scan, progress bar keeps moving, deep paths (260+ chars) no longer skipped.
+- 🎁 **7-day Free Trial** for accounts without membership (persists across restarts, profile shows days left).
+- 🖥️ **True background start on PC-on** — tray icon only, no window at startup.
+- 📄 Print history shows document **Size** + 🕒 time + printer, persisted.
 - 🛡️ All files **0/75 on VirusTotal**, Microsoft Defender undetected.
 
 ---
