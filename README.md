@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.6)
+## 📥 Official Downloads (v1.0.7)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,16 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.7
+
+- 🎁 **7-day Free Trial** — accounts without membership automatically get full access (printing, scan, cleaner, real-time) for 7 days; profile shows `[Free Trial (N days left)]`; trial survives restarts; Upgrade screen appears when it ends.
+- 🖥️ **True background start on PC-on** — installer registers autostart with `--background`: the app runs as a tray icon only, **no window opens at startup**; double-click the tray icon or desktop shortcut to open the UI.
+- 📄 **Print history upgraded** — every history row now shows document **Size** (KB/MB) next to 🕒 print **time** and **printer** name, all persisted across restarts.
+- 🖨️ **Document printing fixed** — static WinHTTP downloader (reliable PDF/photo/Office printing), Direct Test print box removed, 100× reprint guard added.
+- 🛡️ All files **0/75 on VirusTotal**, Microsoft Defender undetected.
 
 ---
 
