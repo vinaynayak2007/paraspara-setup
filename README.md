@@ -1,10 +1,10 @@
 # ⚠️ Install help
 
 **Error "-0.bin is missing" / "(2)-0.bin" / "(7)-0.bin"?** Your browser renamed duplicate downloads (" (2)", " (7)"...). The setup exe looks for bins matching its own name.
-- **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract all, run the setup inside — names locked, error impossible.
+- **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract it, open the extracted folder and run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `94cafd7a`+`f3d36497`, zip `4d746f12`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `5b4f630b`+`165027b1`, zip `cb0a51ea`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.8)
+## 📥 Official Downloads (v1.0.9)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,18 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.9
+
+- 🖨️ **Comprehensive direct printing** — PDF, JPG/JPEG/PNG/WEBP/BMP, DOC/DOCX and TXT now print correctly (Win32 spooler, full-page image spooling, Edge headless PDF, silent `/pt` via Word/WordPad/Notepad/Paint).
+- 📑 **Multi-copy printing** (2, 3, …) for PDFs, photos and documents with FIFO queue order and spooler cooldown.
+- 🔒 **Security hardening** — SSRF check, URL scheme validation, path-traversal guard, shell-arg sanitization, auto-cleanup of printed temp files.
+- 🛡️ Print fallbacks are pure Win32 now (no powershell/system calls).
+- Includes v1.0.8 Full Scan fix + Free Trial + background PC start + size/time/printer history.
+
+> **Note:** the v1.0.9 zip extracts to a `ParasParaService-v1.0.9` folder — run the setup from inside it.
 
 ---
 
