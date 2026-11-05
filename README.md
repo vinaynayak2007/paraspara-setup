@@ -4,7 +4,7 @@
 - **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract it, open the extracted folder and run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `e704eb3c`+`de0f33fb`, zip `ba6ccf5c`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `302cd545`+`a1c839b2`, zip `16e8c0f0`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.11)
+## 📥 Official Downloads (v1.0.12)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,15 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.12
+
+- 🛑 **Reprint-storm fix** — copies hard-capped at 20, one verified print process per copy (a bogus copies=61 order can no longer spool 61 documents), printer-queue backpressure, 15 submissions/min rate limit, identical-content suppression (max 2× per 30 min, extras marked `Skipped-Dup`).
+- Includes v1.0.11 bundled print engine + spooler-verified printing + everything before.
+
+> **Note:** the v1.0.12 zip extracts to a `ParasParaService-v1.0.12` folder — run the setup from inside it.
 
 ---
 
