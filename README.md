@@ -4,7 +4,7 @@
 - **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract it, open the extracted folder and run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `e82b7633`+`a2a22295`, zip `50e4921d`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `e704eb3c`+`de0f33fb`, zip `ba6ccf5c`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.10)
+## 📥 Official Downloads (v1.0.11)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,17 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.11
+
+- 🖨️ **Bundled print engine** — official SumatraPDF 3.6.1 (`print_engine.exe`) installs with the app and silently prints customer PDFs/images via direct GDI. No browser needed; the Edge hand-off problem ("Done but not printed") is gone at the root.
+- ✅ Every engine job is **spooler-verified**: Completed only when paper is genuinely queued; honest Failed otherwise.
+- 🧠 Smart printer resolver + non-blocking queue notifications (UI stays responsive while printing).
+- Includes v1.0.10 truthful verification, v1.0.9 all-format printing + multi-copy, v1.0.8 Full Scan fix, Free Trial, background PC start.
+
+> **Note:** the v1.0.11 zip extracts to a `ParasParaService-v1.0.11` folder — run the setup from inside it.
 
 ---
 
