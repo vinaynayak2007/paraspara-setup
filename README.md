@@ -4,7 +4,7 @@
 - **Easiest:** download **ParasParaService-Setup-CLEAN.zip**, extract it, open the extracted folder and run the setup inside — names locked, error impossible.
 - **Or:** put the 3 files in a NEW empty folder with identical base names (delete every " (n)" copy first).
 
-**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `20b98636`+`e3c098cf`, zip `0a31ae35`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
+**Maintainer note:** release assets come from the verified clean pipeline (exe `7d8d0f8a`, bins `80ff250d`+`5040c075`, zip `e23d3e93`). Never re-upload old builds (`edb092b3` generation = 11 AV flags).
 
 # 🚀 Paraspara Service — Official Windows Installer
 
@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.15)
+## 📥 Official Downloads (v1.0.16)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,15 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.16
+
+- ✂️ **Double-copy fix** — a launched+handled print job now stops the chain immediately (no second engine ever receives the same job); kiosk twin-retry duplicates within 120 s are dropped as `Skipped-Dup`. One order = one print.
+- Includes v1.0.15 duplex + parsing fixes and all earlier hardening.
+
+> **Note:** the v1.0.16 zip extracts to a `ParasParaService-v1.0.16` folder — run the setup from inside it.
 
 ---
 
