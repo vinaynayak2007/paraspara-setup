@@ -12,7 +12,7 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ---
 
-## 📥 Official Downloads (v1.0.16)
+## 📥 Official Downloads (v1.0.17)
 
 ### 📦 Clean ZIP Package (Recommended):
 [![Download ParasParaService-Setup-CLEAN.zip](https://img.shields.io/badge/Download-ParasParaService--Setup--CLEAN.zip-00b894?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup-CLEAN.zip)
@@ -24,6 +24,15 @@ Official Windows desktop software and cloud print spooler for **Paraspara Servic
 
 ### 💿 Direct Windows Setup Executable:
 - **[ParasParaService-Setup.exe](https://github.com/vinaynayak2007/paraspara-setup/releases/latest/download/ParasParaService-Setup.exe)** (5.21 MB)
+
+---
+
+## 🆕 What's New in v1.0.17
+
+- ⚡ **Dedicated PHP Printer Gateway Integration** — Dual-channel high-speed polling from `/api/printer_gateway.php?action=spool_poll` with zero Firebase read overhead.
+- 🖨️ **Instant UPI Print Spooling** — Auto-dispatches counter print jobs immediately when a mobile customer pays and returns from PhonePe, Google Pay, or Paytm.
+- 🔄 **Real-Time Print Status Reporting** — Reports verified spool completion to `/api/printer_gateway.php?action=mark_printed` to eliminate stale customer kiosk notices.
+- 🛡️ Includes v1.0.16 double-copy prevention and v1.0.15 duplex engine fixes.
 
 ---
 
